@@ -23,15 +23,16 @@ if uploaded_file:
 
     category = categorize(text)
 
-save_expense(text, category)
+    save_expense(text, category)
 
-st.write("Category:", category)
-budget = get_budget(category)
+    st.write("Category:", category)
 
-st.write("Budget Recommendation:")
-st.write(budget)
+    budget = get_budget(category)
 
-if st.button("Get Financial Advice"):
+    st.write("Budget Recommendation:")
+    st.write(budget)
+
+    if st.button("Get Financial Advice"):
 
         advice = get_advice(text)
 
