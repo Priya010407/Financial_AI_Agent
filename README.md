@@ -1,2 +1,3 @@
-# Financial_AI_Agent
-AI-Powered Financial Advisor Agent is a Python-based application that uses OCR to extract transaction details from payment screenshots, categorizes expenses, provides budget recommendations and financial advice, stores records in SQLite, and visualizes spending patterns through interactive dashboards, bar charts, and pie charts.
+# Financial AI Agent
+
+Financial AI Agent is a Streamlit-based application that extracts transaction details from screenshots using OCR, categorizes expenses, stores records, and provides financial advice with expense tracking and visualization.
